@@ -3,7 +3,7 @@ require 'solargraph/version'
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name        = 'solargraph'
+  s.name        = 'cosmicgraph'
   s.version     = Solargraph::VERSION
   s.date        = Date.today.strftime("%Y-%m-%d")
   s.summary     = "A Ruby language server"

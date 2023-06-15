@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   end
   s.homepage    = 'https://solargraph.org'
   s.license     = 'MIT'
-  s.executables = ['solargraph']
+  s.executables = ['cosmicgraph']
   s.metadata["funding_uri"] = "https://www.patreon.com/castwide"
 
   s.required_ruby_version = '>= 2.6'
@@ -35,6 +35,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'thor', '~> 1.0'
   s.add_runtime_dependency 'tilt', '~> 2.0'
   s.add_runtime_dependency 'yard', '~> 0.9', '>= 0.9.24'
+  s.add_runtime_dependency 'rubocop-performance'
+  s.add_runtime_dependency 'rubocop-rspec'
+  s.add_runtime_dependency 'rubocop-rails'
 
   s.add_development_dependency 'pry'
   s.add_development_dependency 'public_suffix', '~> 3.1'

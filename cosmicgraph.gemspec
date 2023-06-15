@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   end
   s.homepage    = 'https://solargraph.org'
   s.license     = 'MIT'
-  s.executables = ['cosmicgraph']
+  s.executables = ['solargraph']
   s.metadata["funding_uri"] = "https://www.patreon.com/castwide"
 
   s.required_ruby_version = '>= 2.6'

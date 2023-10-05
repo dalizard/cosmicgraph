@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'parser', '~> 3.0'
   s.add_runtime_dependency 'rbs', '~> 2.0'
   s.add_runtime_dependency 'reverse_markdown', '~> 2.0'
-  s.add_runtime_dependency 'rubocop'
+  s.add_runtime_dependency 'rubocop', '~> 1.56'
   s.add_runtime_dependency 'thor', '~> 1.0'
   s.add_runtime_dependency 'tilt', '~> 2.0'
   s.add_runtime_dependency 'yard', '~> 0.9', '>= 0.9.24'
